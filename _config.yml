@@ -7,7 +7,7 @@ highlighter: pygments
 markdown: kramdown
 disqus: dbyll
 google_analytics: dbyll
-title: AlexMayle.io
+title: “Alex Mayle”
 
 defaults:
   -
@@ -21,7 +21,7 @@ author:
   name: “Alex Mayle”
   email: alexmayle@gmail.com
   github: AlexMayle
-  linkedin: https://www.linkedin.com/in/alex-mayle-755a1b81
+  linkedin: alex-mayle-755a1b81
   bio: “Think of something to put here
 
 rss_path: feed.xml

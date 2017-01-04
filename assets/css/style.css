@@ -1,12 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
 
 body{
-    background-color: #212d41;
+    background-color: rgba(33, 45, 65, 0.97)
 }
 
 p {
     font-size: 18px;
-    color: #8EAEBD;
+    color: rgba(168, 179, 202, 1);
 }
 
 hr {

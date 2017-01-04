@@ -10,7 +10,7 @@ p {
 }
 
 hr {
-    color: #8EAEBD;
+    border: 1px solid #8EAEBD;
 }
 
 .col-sm-9 col-sm-offset-3 {

@@ -5,7 +5,7 @@ body{
 }
 
 .col-sm-9 col-sm-offset-3 {
-    background-color: #30415D
+    background-color: #30415D /* article background */
 }
 
 .sidebar {
@@ -134,7 +134,7 @@ article.home h1 a,
 article.home h2 a,
 article.home h3 a,
 article.home h4 a {
-	color: #f2756a;
+	color: #8EAEBD;
 }
 article.home h1 a:hover,
 article.home h2 a:hover,

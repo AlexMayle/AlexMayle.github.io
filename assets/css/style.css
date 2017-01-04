@@ -27,18 +27,18 @@ body{
 
 .sidebar-header .title a{
 	text-decoration: none;
-	color: #fff;
+	color: #30415D;
 }
 
 a.nav-link {
 	padding-bottom: 5px;
 	padding-top: 7px;
-	color: #aaa;
+	color: #30415D;
 }
 a.nav-link i{
 	font-size: 16px;
 }
-a.nav-link:hover { color: #777; }
+a.nav-link:hover { color: #30415D; }
 
 #bio {
 	font-family: "Courier New", Courier, monospace;
@@ -86,7 +86,7 @@ article .share .gplus:hover {
 }
 
 .page-header {
-	color: #e74c3c;
+	color: #30415D;
 	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
@@ -115,8 +115,14 @@ article {
 	padding: 0 5% 0;
 }
 
-article.home div a, article.home pre a { color: #2c3e50; }
-article.home div a:hover, article.home pre a:hover { color: #2c3e50; text-decoration: none; }
+article.home div a, article.home pre a {
+    color: #2c3e50;
+}
+
+article.home div a:hover, article.home pre a:hover {
+    color: #2c3e50;
+    text-decoration: none;
+}
 article img { max-width: 100%; }
 
 h1,h2,h3,h4,h5,h6 { font-family: 'Ubuntu', sans-serif; }

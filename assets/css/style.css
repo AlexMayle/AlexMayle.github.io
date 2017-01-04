@@ -6,11 +6,15 @@ body{
 
 p {
     font-size: 18px;
-    color: #8EAEBD
+    color: #8EAEBD;
+}
+
+hr {
+    color: #8EAEBD;
 }
 
 .col-sm-9 col-sm-offset-3 {
-    background-color: #30415D /* article background */
+    background-color: #30415D; /* article background */
 }
 
 .sidebar {
@@ -145,11 +149,11 @@ h2, .h2 {
 }
 
 h3, .h3 {
-    font-size: 32px
+    font-size: 30px
 }
 
 h4, .h4 {
-    font-size: 26px
+    font-size: 24px
 }
 
 h5, .h5 {

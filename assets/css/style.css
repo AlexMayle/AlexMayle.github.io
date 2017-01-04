@@ -171,6 +171,13 @@ h6, .h6 {
     font-size: 18px
 }
 
+article.home h1 a,
+article.home h2 a,
+article.home h3 a,
+article.home h4 a {
+    color: rgba(168, 179, 202, 1);
+}
+
 article.home h1 a:hover,
 article.home h2 a:hover,
 article.home h3 a:hover,

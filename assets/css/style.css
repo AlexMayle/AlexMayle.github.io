@@ -42,7 +42,7 @@ hr {
 a.nav-link {
 	padding-bottom: 5px;
 	padding-top: 7px;
-    color: #212d41;
+    color: #30415D;
 }
 a.nav-link i{
 	font-size: 16px;
@@ -125,8 +125,8 @@ article {
 	padding: 0 5% 0;
 }
 
-article.home div a, article.home pre a {
-    color: #212d41;
+article.home div a, article.home pre a { /* change this */
+    color: #538ae2;
 }
 
 article.home div a:hover, article.home pre a:hover {

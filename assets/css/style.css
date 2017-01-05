@@ -25,6 +25,11 @@ hr {
     color: #fff;
 }
 
+#sidebar-nav {
+    font-size: 18px;
+    color: #212d41;
+}
+
 #sidebar-logo {
     width: 150px;
     height: 108px;

@@ -25,6 +25,12 @@ hr {
 	color: #fff;
 }
 
+.sidebar-logo{
+    width: 150px;
+    height: 108px;
+    border-radius: 18%;
+}
+
 .sidebar-header {
 	text-align: center;
 	margin-bottom: 10px;

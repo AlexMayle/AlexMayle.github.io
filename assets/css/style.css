@@ -17,6 +17,11 @@ hr {
     background-color: #212d41; /* article background */
 }
 
+.img-circle {
+    width: 150px;
+    height: 108px;
+}
+
 .sidebar {
 	position: fixed;
 	top: 0px;

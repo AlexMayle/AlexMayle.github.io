@@ -30,6 +30,7 @@ tags_path: tags.html
 about_path: about.html
 posts_path: posts.html
 resume_path: resume.html
+logo_path: assets/media/simplegraph.png
 
 # set it as url of an image
 # sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1

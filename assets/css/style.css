@@ -26,9 +26,9 @@ hr {
 }
 
 .sidebar-logo{
+    border-radius: 18%;
     width: 150px;
     height: 108px;
-    border-radius: 18%;
 }
 
 .sidebar-header {

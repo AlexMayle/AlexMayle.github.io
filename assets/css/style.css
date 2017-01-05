@@ -135,8 +135,8 @@ article {
 	padding: 0 5% 0;
 }
 
-article.home div a, article.home pre a { /* change this */
-    color: #538ae2;
+article.home div a, article.home pre a { 
+    color: #468cd2;
 }
 
 article.home div a:hover, article.home pre a:hover {

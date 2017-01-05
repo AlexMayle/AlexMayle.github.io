@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
 
 body{
-    background-color: rgba(33, 45, 65, 0.97);
+    background-color: rgba(21, 29, 42, 0.93);
 }
 
 p {
@@ -13,9 +13,9 @@ hr {
     border: 1px solid #8EAEBD;
 }
 
-.col-sm-9 col-sm-offset-3 {
-    background-color: #212d41; /* article background */
-}
+/*.col-sm-9 col-sm-offset-3 {*/
+/*    background-color: #212d41; /* article background */*/
+/*}*/
 
 .sidebar {
 	position: fixed;
@@ -135,7 +135,7 @@ article {
 	padding: 0 5% 0;
 }
 
-article.home div a, article.home pre a { 
+article.home div a, article.home pre a {
     color: #468cd2;
 }
 

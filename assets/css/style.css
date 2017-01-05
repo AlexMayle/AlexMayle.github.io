@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
 
+/*Colors*/
+/*dark-blue:#212d41*/
+/*pink:#CF6766*/
+
 body{
     background-color: rgba(33, 45, 65, 0.97);
 }
@@ -13,9 +17,9 @@ hr {
     border: 1px solid #8EAEBD;
 }
 
-.col-sm-9 col-sm-offset-3 {
-    background-color: #212d41; /* article background */
-}
+/*.col-sm-9 col-sm-offset-3 {*/
+/*    background-color: #212d41; /* article background */*/
+/*}*/
 
 .sidebar {
     position: fixed;
@@ -47,6 +51,7 @@ hr {
 .sidebar-header .title{
     letter-spacing: 3px;
     text-transform: uppercase;
+    color: #212d41;
 }
 
 .sidebar-header .title a{

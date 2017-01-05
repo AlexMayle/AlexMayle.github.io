@@ -25,10 +25,14 @@ hr {
 	color: #fff;
 }
 
-.sidebar-logo{
-    border-radius: 18%;
+#sidebar-logo {
     width: 150px;
     height: 108px;
+}
+
+#mobile-banner-logo {
+    width: 25px;
+    height 18px;
 }
 
 .sidebar-header {

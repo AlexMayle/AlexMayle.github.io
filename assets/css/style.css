@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
 
 body{
-    background-color: rgba(21, 29, 42, 0.93);
+    background-color: rgba(33, 45, 65, 0.97);
 }
 
 p {
@@ -18,11 +18,11 @@ hr {
 }
 
 .sidebar {
-	position: fixed;
-	top: 0px;
-	padding-top: 10%;
-	background-color: #CF6766;
-	color: #fff;
+    position: fixed;
+    top: 0px;
+    padding-top: 10%;
+    background-color: #CF6766;
+    color: #fff;
 }
 
 #sidebar-logo {
@@ -36,77 +36,77 @@ hr {
 }
 
 .sidebar-header {
-	text-align: center;
-	margin-bottom: 10px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 .sidebar-header .title{
-	letter-spacing: 3px;
-	text-transform: uppercase;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 .sidebar-header .title a{
-	text-decoration: none;
+    text-decoration: none;
     color: #212d41;
 }
 
 a.nav-link {
-	padding-bottom: 5px;
-	padding-top: 7px;
+    padding-bottom: 5px;
+    padding-top: 7px;
     color: #30415D;
 }
 a.nav-link i{
-	font-size: 16px;
+    font-size: 16px;
 }
 a.nav-link:hover { color: #30415D; }
 
 #bio {
-	font-family: "Courier New", Courier, monospace;
-	font-size: 12px;
-	margin: 0 auto;
-	margin-bottom: 10px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 12px;
+    margin: 0 auto;
+    margin-bottom: 10px;
 }
 
 #contact-list li .fa,
 article .share .btn {
-	-o-transition:color .2s ease-out, background 1s ease-in;
-  -ms-transition:color .2s ease-out, background 1s ease-in;
-  -moz-transition:color .2s ease-out, background 1s ease-in;
-  -webkit-transition:color .2s ease-out, background 1s ease-in;
-  transition:color .2s ease-out, background 1s ease-in;
+    -o-transition:color .2s ease-out, background 1s ease-in;
+    -ms-transition:color .2s ease-out, background 1s ease-in;
+    -moz-transition:color .2s ease-out, background 1s ease-in;
+    -webkit-transition:color .2s ease-out, background 1s ease-in;
+    transition:color .2s ease-out, background 1s ease-in;
 }
 #contact-list li:hover .fa-twitter,
 article .share .twitter:hover {
-	color: #00ACEE;
-	border-color: #00ACEE;
+    color: #00ACEE;
+    border-color: #00ACEE;
 }
 #contact-list li:hover .fa-linkedin {
-	color: #1D87BD;
+    color: #1D87BD;
 }
 #contact-list li:hover .fa-envelope {
-	color: #E93E30;
+    color: #E93E30;
 }
 #contact-list li:hover .fa-pinterest {
-	color: #CC2127;
+    color: #CC2127;
 }
 #contact-list li:hover .fa-rss {
-	color: #e74c3c;
+    color: #e74c3c;
 }
 article .share .facebook:hover {
-	color: #43609C;
-	border-color: #43609C;
+    color: #43609C;
+    border-color: #43609C;
 }
 article .share .gplus:hover {
-	color: #C13929;
-	border-color: #C13929;
+    color: #C13929;
+    border-color: #C13929;
 }
 
 #contact-list-secondary {
-	padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .page-header {
-	color: #8EAEBD;
-	text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
+    color: #8EAEBD;
+    text-shadow: 1px 1px 1px rgba(150, 150, 150, 1);
 }
 
 @media only screen and (min-width: 768px) {
@@ -116,23 +116,23 @@ article .share .gplus:hover {
 }
 
 article{
-	margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 
 .article_body{
-	margin-top: 20px;
-	margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .post-date {
-	text-transform: uppercase;
-	font-size: 16px;
-	letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 3px;
     color: #8EAEBD;
 }
 
 article {
-	padding: 0 5% 0;
+    padding: 0 5% 0;
 }
 
 article.home div a, article.home pre a {
@@ -192,17 +192,17 @@ article.home h1 a:hover,
 article.home h2 a:hover,
 article.home h3 a:hover,
 article.home h4 a:hover {
-	color: #e74c3c;
+    color: #e74c3c;
 }
 
 .author .author-image {
-  float: left;
-  margin-right: 20px;
+    float: left;
+    margin-right: 20px;
 }
 
 footer {
-	padding-top: 15px;
-	font-family: 'Ubuntu';
+    padding-top: 15px;
+    font-family: 'Ubuntu';
 }
 
 /* nav-vertical-tabs component */

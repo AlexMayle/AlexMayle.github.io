@@ -13,6 +13,10 @@ hr {
     border: 1px solid #8EAEBD;
 }
 
+a {
+    color: #212d41;
+}
+
 .col-sm-9 col-sm-offset-3 {
     background-color: #212d41; /* article background */
 }
@@ -47,6 +51,11 @@ hr {
 .sidebar-header .title a{
     text-decoration: none;
     color: #212d41;
+}
+
+#sidebar-nav {
+    color: #212d41;
+    font-size: 20px;
 }
 
 a.nav-link {

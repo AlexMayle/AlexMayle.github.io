@@ -115,6 +115,10 @@
 
 		<hr>
 	</div>
+    
+    {% if site.disqus and page.comments %}
+        {% include disqus.html %}
+    {% endif %}
 	
 	<div class="col-sm-2 sidebar-2">
 	

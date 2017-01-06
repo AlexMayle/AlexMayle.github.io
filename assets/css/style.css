@@ -25,7 +25,8 @@ a {
 
 #btn-nav {
     background-color: transparent;
-    border-color: black;
+    border-color: #212d41;
+    color: #212d41;
 }
 
 .sidebar {

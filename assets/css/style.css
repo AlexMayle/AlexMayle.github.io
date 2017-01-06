@@ -96,6 +96,9 @@ article .share .twitter:hover {
     color: #00ACEE;
     border-color: #00ACEE;
 }
+#contact-list li:hover {
+    box-shadow: 0 0 4px #212d41;
+}
 #contact-list li:hover .fa-linkedin {
     color: #1D87BD;
 }
@@ -204,13 +207,13 @@ article.home h3 a,
 article.home h4 a {
     color: rgba(168, 179, 202, 1);
 }
-
-article.home h1 a:hover,
-article.home h2 a:hover,
-article.home h3 a:hover,
-article.home h4 a:hover {
-    color: #e74c3c;
-}
+/**/
+/*article.home h1 a:hover,*/
+/*article.home h2 a:hover,*/
+/*article.home h3 a:hover,*/
+/*article.home h4 a:hover {*/
+/*    color: #e74c3c;*/
+/*}*/
 
 .author .author-image {
     float: left;

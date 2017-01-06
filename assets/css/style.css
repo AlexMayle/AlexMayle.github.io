@@ -10,7 +10,7 @@ p {
 }
 
 hr {
-    display: none;
+    border-style: 1px solid rgba(168, 179, 202, 1);
 }
 
 a {

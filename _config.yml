@@ -22,7 +22,8 @@ author:
   email: alexmayle@gmail.com
   github: AlexMayle
   linkedin: alex-mayle-755a1b81
-  bio: Think of something to put here
+  bio: 
+  email_md5: 2f170cb9a89d2d750f284ae2f5e38609
 
 rss_path: feed.xml
 categories_path: categories.html

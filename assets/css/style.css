@@ -21,6 +21,11 @@ a {
     background-color: #212d41; /* article background */
 }
 
+#btn-nav {
+    background-color: transparent;
+    border-color: black;
+}
+
 .sidebar {
     position: fixed;
     top: 0px;

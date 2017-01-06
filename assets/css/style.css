@@ -10,7 +10,9 @@ p {
 }
 
 hr {
-    border-style: 1px solid rgba(168, 179, 202, 1);
+    border-style: inset;
+    border-width: 1px;
+    border-color: rgba(168, 179, 202, .4);
 }
 
 a {

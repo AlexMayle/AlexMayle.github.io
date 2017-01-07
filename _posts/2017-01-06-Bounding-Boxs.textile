@@ -1,0 +1,21 @@
+---
+layout: post
+title: Finding All the Objects in an image, Without Looking at the Whole Image
+tags: [bounding, box, boxes, BBFinder]
+categories: [algorithms]
+description: Can we place bounding boxes around all the objects in the image, without even looking at the whole image? Yes, yes we can. 
+---
+
+p. Last semester I received an interesting assignment. given an image, render a new image with "bounding boxes":https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=4&cad=rja&uact=8&ved=0ahUKEwj5qNbx4q7RAhVH6YMKHTElCuAQFggqMAM&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FMinimum_bounding_box&usg=AFQjCNG9qOZ4aoFsuQD53NgEQCUGOyQkPQ&sig2=n1JHXcFWgQNZFfiNt95W0w around all of the objects, like so:
+
+!{display:block; margin-left:auto; margin-right:auto;}{{ site.BASE_PATH }}/assets/media/bounding-box-example.png!
+
+This seems simple enough: go through all the pixels and do some bookkeeping along the way. However, that wouldn't be fun or quick. So the question naturally presents itself, can we do better? Can we find all the objects in an image without checking every single pixel? Turns out that you can!
+
+<div class="alert alert-info" role="alert">
+<strong>Aside: </strong>
+
+p. We are actually dealing with AABB's (Axis Aligned Bounding Box) which'often arise when transforming objects in graphics programs, or "determining object collisions in computer games":https://en.wikipedia.org/wiki/Collision_detection#Bounding_boxes.
+</div>
+
+

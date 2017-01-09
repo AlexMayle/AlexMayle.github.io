@@ -151,6 +151,10 @@ article{
     color: #8EAEBD;
 }
 
+#posts-page-date {
+    display: block;
+}
+
 article {
     padding: 0 5% 0;
 }

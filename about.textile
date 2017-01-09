@@ -1,0 +1,53 @@
+---
+layout: page
+title: About
+header: About Me
+---
+
+<div>
+    <h6>
+        <ul class="list-unstyled list-inline">
+            <li>
+                Links
+            </li>
+            {% if site.author.github %}
+            <li>
+                <a href="https://github.com/{{ site.author.github }}">
+                    Github <i class="fa fa-github-alt fa-lg"></i>
+                </a>
+            </li>
+            {% endif %}
+            {% if site.author.linkedin %}
+            <li>
+                <a href="https://linkedin.com/in/{{ site.author.linkedin }}">
+                    LinkedIn <i class="fa fa-linkedin fa-lg"></i>
+                </a>
+            </li>
+            {% endif %}
+            {% if site.author.email %}
+            <li>
+                <a href="mailto:{{ site.author.email }}">
+                    Email <i class="fa fa-envelope"></i>
+                </a>
+            </li>
+            {% endif %}
+            {% if site.resume_path %}
+            <li>
+                <a href="{{ site.BASE_PATH }}/{{ site.resume_path }}">
+                    Résumé
+                </a>
+            </li>
+            {% endif %}
+        </ul>
+    </h6>
+</div>
+
+!{display:block; float:right; padding: 0px 0px 20px 20px;}{{ site.BASE_PATH }}/assets/media/about-me-pic.png!
+
+For starters, I'm CS major here at Ohio University. Being a senior, I'm trying to soak up the last semester before April's graduation. I originally started this blog as a way to showcase my experiences and increase my opportunities, but it has always reminded me how relaxing writing can be.
+
+Algorithms are a big thing for me, and in general, just finding ways to solve problems. Quanitative finance, Bioinformatics, Machine Learning (particularly artificial neural networks), and data analysis have been recent interests of mine. Unfortunately -- or fortunately, depending how you see it -- there is so much to learn in these areas. Because of this, I'm currently trying to flesh out what really makes me tick and find a way to dive into at least one of these areas as a career. I've certainly thought about graduate programs, but as I see it right now, I have some life to live and decisions to make before I can commit to more conventional schooling.
+
+Currently, I am seeking employment after graduation, and hopefully with a company I can learn a lot from. As odd as it may seem, I'm not very excited about the idea of simply using what I've already learned. I'd rather be in a position in which I need to keep learning and growing. Becoming better is a much more exciting prospect than staying stagnant.
+
+For those interested, feel free to use the links at the top of the page to learn more or get in touch. 

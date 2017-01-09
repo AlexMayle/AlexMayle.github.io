@@ -79,7 +79,7 @@ kbd,
 pre,
 samp {
     font-family: monospace, serif;
-    font-size: 1em
+    font-size: 1em;
 }
 pre {
     white-space: pre-wrap
@@ -593,10 +593,17 @@ pre {
 code {
     padding: 2px 4px;
     font-size: 90%;
-    color: #c7254e;
+/*    color: #c7254e;*/
+    color: #CF6766;
     white-space: nowrap;
-    background-color: #f9f2f4;
-    border-radius: 4px
+    background-color: rgba(0, 0, 0, .15);
+/*    background-color: #f9f2f4;*/
+/*    border-radius: 4px*/
+    border: transparent;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: #8EAEBD;
+
 }
 pre {
     display: block;

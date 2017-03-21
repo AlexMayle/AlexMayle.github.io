@@ -12,7 +12,7 @@ p. Last semester I received an interesting assignment. given an image, render a 
 
 h3. File Format
 
-If we are working with colored images and compressed file types, such as JPEG, this could get complicated, but we have a number of simplifying factors. We are going to be working with black and white images, specifically the "ASCII PBM":https://people.sc.fsu.edu/~jburkardt/data/pbma/pbma.html format. This is essentially a file containing a 2D array of '1's and '0's, denoting black and white pixels, respectively. ' Below is an example ASCII PBM file  containing a 'J'.
+If we are working with colored images and compressed file types, such as JPEG, this could get complicated, but we have a number of simplifying factors. We are going to be working with black and white images, specifically the "ASCII PBM":https://people.sc.fsu.edu/~jburkardt/data/pbma/pbma.html format. This is essentially a file containing a 2D array of '1's and '0's, denoting black and white pixels, respectively. Below is an example ASCII PBM file  containing a 'J'.
 
 bc. P1
 # This is an example bitmap of the letter "J"
@@ -113,7 +113,7 @@ end
 
 h3. Results & Complexity
 
-As we saw in specific cases, our algorithm can lead to incredible speedups, but on more realistic images, we are going to see more realistic results. For example, "this image of an odd dragon thing":https://people.sc.fsu.edu/~jburkardt/data/pbma/gerrymander.png one had a speedup of 0.51 and produced the image below.
+As we saw in specific cases, our algorithm can lead to incredible speedups, but on more realistic images, we are going to see more realistic results. For example, "this image of an odd dragon thing":https://people.sc.fsu.edu/~jburkardt/data/pbma/gerrymander.png had a speedup of 0.51 and produced the image below.
 
 !{display:block; margin-left:auto; margin-right:auto;}{{ site.BASE_PATH }}/assets/media/bounding-box-result.png!
 

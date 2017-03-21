@@ -121,7 +121,11 @@ Computing an uppor or lower bound will be tricky because of the vast degrees of 
 
 !{display:block; margin-left:auto; margin-right:auto;}{{ site.BASE_PATH }}/assets/media/plus.png!
 
-Consider the image above. Growing the bounding boxes to their full sizes would be efficient, but checking their perimeter to make sure they are done growing won't be. The center of the plus resides in the perimeter of all four objects, so it will get checked four times. Each "arm" is on the perimeter of two objects, respectively, so each will get checked twice. In the end it results in a 1.51 speedup -- or what is actually a slow down. Of course, we could sacrifice memory in the name of time and keep track of pixels we have checked. This, however, would prevent us from using the algorithm to detect object collisions.
+Consider the image above. Growing the bounding boxes to their full sizes would be efficient, but checking their perimeter to make sure they are done growing won't be. The center of the plus resides in the perimeter of all four objects, so it will get checked four times. Each "arm" is on the perimeter of two objects, respectively, so each will get checked twice. In the end it results in a 1.51 speedup -- or what is actually a slow down. 
+
+Of course, we could sacrifice memory in the name of time and keep track of pixels we have checked; however, this does not help us very much. In general, it may, but in our case, it does not. We are keeping our image in a two dimensional array with constant time access. We could use a similar data structure to keep track of whether each pixel has been checked or not. We can then see that it takes the same amount of time to check if a pixel is black or white, as it does to see if the pixel has already been checked for its color.
+
+So for a pixel that hasn’t been checked, we are actually doubling the time it takes to query the color of a pixel. Likewise, if the pixel has been checked, we mite as well have spent the time querying the color of the pixel, because there is no speedup either way. 
 
 If you'd like to mess around with the code yourself and try to speed it up, go clone the repo on GitHub!
 

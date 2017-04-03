@@ -46,4 +46,4 @@ header: About Me
 
 I'm a CS major here at Ohio University in my senior year. My main interests are in Machine Learning (particularly Deep Learning), distributed systems, data analysis, or really, anything involving data. I'm currently looking for full-time opportunities in software engineering, especially those where I can get hands-on experience with distributed technologies.
 
-For more, check out my links at the top or feel free to contact me directly. 
+For more, check out my links at the top or feel free to contact me directly.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Finding All the Objects in an image, Without Looking at the Whole Image
+title: Finding All the Objects in an image, Without Looking at the Whole Image/
 tags: [bounding, box, boxes, BBFinder]
 categories: [algorithms]
 description: Can we place bounding boxes around all the objects in the image, without even looking at the whole image? Yes, yes we can. 

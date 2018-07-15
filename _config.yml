@@ -38,6 +38,6 @@ logo_path: assets/media/simplegraph.png
 
 BASE_PATH:
 
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-textile-converter

@@ -10,6 +10,7 @@ p {
 }
 
 hr {
+    clear: both;
     border-style: inset;
     border-width: 1px;
     border-color: rgba(168, 179, 202, .4);
@@ -33,7 +34,7 @@ a {
     position: fixed;
     top: 0px;
     padding-top: 10%;
-    background-color: #CF6766;
+    background-color: #FFFFFF;
     color: #fff;
 }
 

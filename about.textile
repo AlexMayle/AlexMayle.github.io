@@ -42,8 +42,10 @@ header: About Me
     </h6>
 </div>
 
-!{display:block; float:right; padding: 0px 0px 20px 20px;}{{ site.BASE_PATH }}/assets/media/about-me-pic.png!
+<p>
+<img style="float:right; padding: 0px 0px 20px 20px;" src="{{ site.BASE_PATH }}/assets/media/about-me-pic.png">
 
-I'm a CS major here at Ohio University in my senior year. My main interests are in Machine Learning (particularly Deep Learning), distributed systems, data analysis, or really, anything involving data. I'm currently looking for full-time opportunities in software engineering, especially those where I can get hands-on experience with distributed technologies.
+I was raised in northeast Ohio. After obtaining my BSCS in Computer Science from Ohio University I quickly landed in Atlanta, where I now reside. My main interests include algorithms, neural networks, distributed systems, programming patterns, and performance optimization. I also enjoy getting pedantic about clean, elegant code and API design. My tools of choice include python, C#, Solr, Zookeeper, Jmeter, and C++. However, I generally enjoy playing around with a variety of technologies.
 
-For more, check out my links at the top or feel free to contact me directly.
+I'm currently a consultant with Sogeti USA - a division of Capgemeni. I focus on performance optimization, distributed system architecture, and C# development.
+</p>

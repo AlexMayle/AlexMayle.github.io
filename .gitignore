@@ -4,3 +4,4 @@ _site
 *Thumbs.db
 Gemfile.lock
 .psd
+.DS_Store

@@ -1,7 +1,8 @@
-_config.yml
 _site/*
 _site
 *Thumbs.db
 Gemfile.lock
 .psd
 .DS_Store
+.swp
+*.swp

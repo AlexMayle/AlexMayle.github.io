@@ -36,7 +36,7 @@ To prevent the 0 padding from affecting the predictions and training, we ensured
 
 Within the context of tensorflow, we can do this by supplying the `dynamic_rnn` constructor with a keyword parameter `lengths`. This takes the form of a list of integers which represent the length of each example in the batch. The length here refers the the number of non-zero padded MFCC vectors. To calculate the length, or number of non-zero padded $$x_t$$ values for each $$X'$$, we can use the following. Note that `sequence` is a tensor of size $$[mini\_batch\_size, T_{max}, θ_N]$$.
 
-```
+``` python
 def getExampleLengths(self, sequence):
     used = tf.sign(tf.reduce_max(tf.abs(sequence), reduction_indices=2))
     lengths = tf.reduce_sum(used, reduction_indices=1)
@@ -50,7 +50,7 @@ In the code above, we first take the absolute value with respect to each MFCC in
 
 By virtue of the LSTM, each cell in an LSTM maintains its own weights. We are only interested in the weights of the final cell. That is, the layer which processes the final non-zero padded MFCC vector. To pluck out these weights from the whole LSTM network, we can use the code below.
 
-```
+``` python
 def getLastOutput(self, output, exampleLengths):
     shape = tf.shape(output)
     batch_size = shape[0]
@@ -69,7 +69,7 @@ Here, `output` is a list of weights from each LSTM cell. We use a hidden layer s
 Other than the above, implementing the models is straight forward.
 
 ### LSTM with One Layer
-``` 
+``` python
 with tf.name_scope("lstm"):
     lstmCell = tf.contrib.rnn.LSTMCell(hidden_size)
     output, state = tf.nn.dynamic_rnn(lstmCell, X, sequence_length= lengths, dtype= tf.float32)
@@ -81,7 +81,7 @@ return lastOutputs
 
 You'll notice we add dorpout in between the two layers of the LSTM below.
 
-```
+``` python
 with tf.name_scope("lstm"):
   lstmCell = tf.contrib.rnn.LSTMBlockCell(hidden_size)
   dropoutlstmCell = tf.contrib.rnn.DropoutWrapper(lstmCell, input_keep_prob= 0.5,
@@ -98,7 +98,7 @@ return lastOutputs
 
 You can see that we grab the final weights from both passes. We end up concatenating these and passing them to the linear regression layer. 
 
-```
+``` python
 lengths = self.getExampleLengths(X)
 with tf.name_scope("lstm"):
   lstmCell = tf.contrib.rnn.LSTMBlockCell(hidden_size)

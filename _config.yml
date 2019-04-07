@@ -3,7 +3,7 @@
 paginate: 10 # pagination based on number of posts
 paginate_path: "page:num"
 exclude: ["README.md", ".gitignore"] # files to exclude
-highlighter: pygments
+highlighter: rouge
 markdown: kramdown
 disqus: alexmayle-github-io
 google_analytics: true 
@@ -37,6 +37,10 @@ logo_path: assets/media/simplegraph.png
 # sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
 
 BASE_PATH:
+
+kramdown:
+    input: GFM
+    syntax_highlighter: rouge
 
 plugins:
   - jekyll-paginate

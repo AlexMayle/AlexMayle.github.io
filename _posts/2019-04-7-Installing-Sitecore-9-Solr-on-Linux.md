@@ -6,7 +6,7 @@ description: "SIF provides no way to create and configure the necessary SolrClou
 ---
 
 TL;DR: Clone the [repo](https://github.com/AlexMayle/sitecore9-core-installer) containing the script, execute the following from the root of the repo.
-```
+``` python
 python3 create_default_indexes.py | exec
 ```
 
@@ -22,7 +22,7 @@ The real goodies are in the fact that the repo contains Solr configs for the XP 
 
 By default, if you execute `python3 create_default_indexes.py` you'll end up with the following Solr commands generated. To actually execute these commands, just run the same command with `| exec` appended.
 
-```
+``` python
 /opt/solr/bin/solr create -c sitecore_master_index -d configsets/xp_config  && \
 /opt/solr/bin/solr create -c sitecore_web_index -d configsets/xp_config  && \
 /opt/solr/bin/solr create -c sitecore_marketingdefinitions_master -d configsets/xp_config  && \

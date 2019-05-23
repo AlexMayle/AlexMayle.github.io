@@ -42,7 +42,7 @@ We now need to disable the inspection of the client certificate, as well as the 
 
 Disable `sc.XConnect.Security.EnforceSSL.xml` by commenting out the file, as seen below. One may be able to just add the `.disabled` suffix, which would probably be preferrable - as it exposes the fact that it's disabled from the file system itself - but I did not test this. 
 
-```XML
+```xml
 <Settings>
   <!--
     Provides default configuration for component services for the application    
@@ -71,7 +71,7 @@ Disable `sc.XConnect.Security.EnforceSSL.xml` by commenting out the file, as see
 
 Disable `sc.XConnect.Security.EnforceSSLWithCertificateValidation.xml` in the same fashion. 
 
-```XML
+```xml
 <Settings>
   <!--
     Provides default configuration for component services for the application    

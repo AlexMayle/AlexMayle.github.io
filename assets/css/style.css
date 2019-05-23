@@ -8,7 +8,7 @@ code {
     color: rgba(255, 255, 255, 0.82) !important;
 }
 
-p {
+p, ol, ul {
     font-size: 18px;
     color: rgba(181, 192, 217, 1);
 }

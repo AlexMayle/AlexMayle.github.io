@@ -1,13 +1,10 @@
-﻿---
+---
 layout: post
 title: "The Pitfalls of Deploying with Pipenv"
 tags: [Pipenv, Python, Deploy, Deploy]
 categories: [Devops]
 description: Deploying with Pipenv is easy, except when it's not. Some best practices and pitfalls to be aware of.
 ---
-
-#  Pipenv (and cron) Deployment Pitfalls
-
 Well I just had a hellish 8 hour troubleshooting session. Meaning, I need to write down what I shouldn't do next time. Admitedly, much of this time was spent fighting with cron, but Pipenv has also earned itself a blog post. 
 
 ## CD into the Pipenv environment

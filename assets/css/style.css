@@ -183,7 +183,7 @@ article.home h5,
 article.home h6 {
     font-family: 'Ubuntu',
     sans-serif;
-    color: rgb(231, 236, 255);
+    color:rgb(226, 237, 255);
 }
 
 h1, .h1 {
@@ -214,7 +214,7 @@ article.home h1 a,
 article.home h2 a,
 article.home h3 a,
 article.home h4 a {
-    color:rgba(181, 192, 217, 1);
+    color:rgb(226, 237, 255);
 }
 /**/
 /*article.home h1 a:hover,*/
